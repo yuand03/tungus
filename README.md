@@ -1,3 +1,6 @@
+npm install yuand03/tungus -S
+
+Don't  install mongoose !!!
 Tungus
 ======
 
@@ -14,7 +17,7 @@ So far this module is on its early stage with only basic functionality.
 To use this module you have to install both tungus and mongoose.
 
 	npm install tungus
-	npm install mongoose
+	
 
 Then in your code you should include once tungus module prior to include of mongoose.
 This rewrites global.MONGOOSE_DRIVER_PATH variable to point it to tungus.

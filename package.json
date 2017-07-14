@@ -30,13 +30,14 @@
     "lodash": "~3.10.x",
     "mkdirp": "~0.5.0",
     "tingodb": "~0.4.1",
-    "mongodb": "1.4.x"
+    "mongodb": "github:yuand03/oldmongodb",
+    "mongoose": "github:yuand03/mongoose#3.8.x"
   },
   "scripts": {
 		"test":"mocha ./test/*.test.js"
   },
   "devDependencies": {
       "mocha":"1.21.x",
-      "mongoose": "3.6.x"
+      "mongoose": "github:yuand03/mongoose#3.8.x"
   }
 }
